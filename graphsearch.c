@@ -67,7 +67,7 @@ int main()
                     printf("enter a vertex between 0 and 9.\n"); //0~9값 입력하라고 출력
                 }
                 break;
-            case 'd': case 'D': //대소문자 d를 입력받았을 때
+            case 'd': case 'D': //대소문자 d를 입력받았을 때.
                 printf("Enter start vertex for DFS (0~9) = ");
                 scanf("%d", &v); //v값 입력
                 if (v >= 0 && v < MAX_VERTICES && graph->vertexExists[v]) //v값이 0~9이면
