@@ -247,7 +247,7 @@ void printGraph(Graph* graph) {
         if (graph->vertexExists[i]) //그래프의 인접리스트가 존재하면
          { 
             Node* temp = graph->adjLists[i]; //노드 구조체의 포인터 temp에 그래프의 인접리스트 할당
-            printf("[%d]", i); // 정점 번호 출력
+            printf("[%d]", i); // 정점 번호 출력,
             if (temp) {
                 printf(" -> "); // 인접 리스트가 비어있지 않을 경우 출력
                 while (temp) //인접 리스트의 모든 노드를 순회 
